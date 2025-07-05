@@ -68,11 +68,32 @@ Data cleaning was performed in Microsoft Excel before importing the dataset into
 ## Business Questions Answered
 Before importing the dataset into Power BI, exploratory data analysis was performed in SQL to answer key business questions such as:
  - How have monthly sales changed across different regions?
+
+![Image Failed to Load](assets/images/montly_sales_across_regions.png)
+
  - What is the total profit by product category and region?
+
+![Image Failed to Load](assets/images/total_profit_by_product_category_&_region.png)
+
  - Which products rank highest in sales and lowest in profit?
+
+![Image Failed to Load](assets/images/top_10_products_by_sales.png)
+
+![Image Failed to Load](assets/images/bottom_10_products_by_profit.png)
+
  - How do discounts above 20% affect profitability?
+
+![Image Failed to Load](assets/images/discount_impact_on_profit.png)
+
  - Which consumer segment drives the most revenue?
+
+![Image Failed to Load](assets/images/segment_with_the_most_revenue.png)
+
  - Which region shows consistent YoY growth?
+
+![Image Failed to Load](assets/images/region_YoY_query.png)
+
+![Image Failed to Load](assets/images/region_YoY_output.png)
 
 # Data Modeling
 ## Star Schema Design
