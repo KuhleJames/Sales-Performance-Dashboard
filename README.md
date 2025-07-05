@@ -40,3 +40,22 @@ The organisation currently relies on static, Excel-based reports that are time-c
 
 This project addresses those challenges by transforming raw sales data into actionable insights through a clean, easy-to-use dashboard that delivers value across sales, operations, and profitability
 
+
+# Data Collection
+## Source
+The dataset used for this project is the publicly available Superstore Sales dataset, which simulates a retail company’s historical order data. It contains detailed transactional information on customer orders, product categories, shipping performance, and regional sales.
+## Structure & Format
+The data was provided in Excel format and included the following key fields:
+ - Order Details: Order ID, Order Date, Ship Date, Customer ID, Segment, Region
+ - Product Info: Product Name, Category, Sub-Category
+ - Sales Metrics: Sales, Quantity, Discount, Profit
+ - Shipping Metrics: Shipping Mode, Ship Date, Order Priority
+
+This raw dataset was first analysed in SQL to answer business questions and then imported into Power BI for further cleaning, modeling, and visualisation.
+
+
+
+
+
+
+
