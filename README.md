@@ -152,33 +152,19 @@ Total Quantity = SUM(Fact_Sales[Quantity])
 To track growth and trends over time, time-based DAX calculations were created using a custom date table.
  - Sales YoY Growth (%)
 
-DAX
-Sales YoY Growth (%) = 
-VAR CurrentYear = [Total Sales]
-VAR LastYear = CALCULATE([Total Sales], SAMEPERIODLASTYEAR(Dim_Date[Date]))
-RETURN DIVIDE(CurrentYear - LastYear, LastYear)
+![Image Failed to Load](assets/images/Sales_YoY_Calculation.png)
+
 
  - Formatted YoY Growth for KPI Card
 
-DAX
-Sales YoY KPI = 
-VAR YoY = [Sales YoY Growth (%)]
-RETURN IF(
-    ISBLANK(YoY),
-    BLANK(),
-    IF(YoY > 0, "+" & FORMAT(YoY, "0.0%"), FORMAT(YoY, "0.0%"))
-)
+
+![Image Failed to Load](assets/images/YoY_Growth_Display_Calculation.png)
+
 
  - Formatted Profit Margin
 
-DAX
-Profit Margin KPI = 
-VAR PM = [Profit Margin (%)]
-RETURN IF(
-    ISBLANK(PM),
-    BLANK(),
-    FORMAT(PM, "0.0") & "%"
-)
+![Image Failed to Load](assets/images/Profit_Margin_Display_Calculation.png)
+
 
 These DAX measures powered KPI cards and visual insights across multiple dimensions such as region, segment, and category.
 
