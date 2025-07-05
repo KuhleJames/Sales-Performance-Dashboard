@@ -111,7 +111,9 @@ Profit Margin (%) = DIVIDE([Total Profit], [Total Sales])
  - Total Quantity Sold
 DAX
 Total Quantity = SUM(Fact_Sales[Quantity])
+
 ## Time Intelligence
+
 To track growth and trends over time, time-based DAX calculations were created using a custom date table.
  - Sales YoY Growth (%)
 
