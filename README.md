@@ -6,7 +6,7 @@
 # Table of contents
 
 - [Project Overview](#project-overview)
-  - [Ojective](#objective)
+  - [Objective](#objective)
   - [Business Context](#business-context)
 - [Data Collection](#data-collection)
   - [Source](#source)
