@@ -99,18 +99,32 @@ All relationships were created and managed in Power BI’s Model View, with refe
 ## Core Measures
 Several key performance indicators (KPIs) were calculated using DAX to enable accurate business insights. These include:
  - Total Sales
+
 DAX
 Total Sales = SUM(Fact_Sales[Sales])
+
  - Total Profit
+
 DAX
 Total Profit = SUM(Fact_Sales[Profit])
+
  - Profit Margin (%)
+
 DAX
 Profit Margin (%) = DIVIDE([Total Profit], [Total Sales])
- - Total Quanity Sold
+
+ - Total Quantity Sold
+
 DAX
 Total Quantity = SUM(Fact_Sales[Quantity])
+## Time Intelligence
+To track growth and trends over time, time-based DAX calculations were created using a custom date table.
+ - Sales YoY Grwoth (%)
 
+Sales YoY Growth (%) = 
+VAR CurrentYear = [Total Sales]
+VAR LastYear = CALCULATE([Total Sales], SAMEPERIODLASTYEAR(Dim_Date[Date]))
+RETURN DIVIDE(CurrentYear - LastYear, LastYear)
 
 
 
