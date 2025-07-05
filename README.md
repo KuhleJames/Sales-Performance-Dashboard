@@ -185,7 +185,7 @@ The dashboard includes interactive features to support deep dives and comparativ
 This interactive layout empowers users — particularly the Regional Sales Director — to analyze trends, identify growth opportunities, and spot underperforming areas with just a few clicks.
 
 
-![Image Failed to Load](assets/images/Sales_Performance_Dashboard_page-0001.png)
+![Image Failed to Load](assets/images/Updated_Sales_Performance_Dashboard.png)
 
 
 
