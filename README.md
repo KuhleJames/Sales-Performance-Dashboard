@@ -37,5 +37,6 @@ The organisation currently relies on static, Excel-based reports that are time-c
  - Detect profit leaks caused by high discounting or returns
  - Understand seasonal or regional sales trends
  - Optimise operations such as shipping performance and order efficiency
+
 This project addresses those challenges by transforming raw sales data into actionable insights through a clean, easy-to-use dashboard that delivers value across sales, operations, and profitability
 
