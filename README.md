@@ -28,4 +28,7 @@
   - [Trends Identified](#trends-identified)
   - [Recommendations](#recommendations)
 
+# Project Overview
+## Objective
+The objective of this project is to develop a dynamic and interactive Power BI dashboard that analyses Superstore sales performance across key business dimensions — including sales, profitability, operations, and product-level insights. This dashboard is designed to support real-time decision-making by providing drill-down capabilities and intuitive visualisations tailored for the Regional Sales Director and other stakeholders.
 
