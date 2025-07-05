@@ -151,7 +151,13 @@ The dashboard was designed to highlight key sales trends and product performance
  - Tree Map: Sales by Region (Provides a proportional view of total sales across regions, making it easy to spot the highest and lowest contributors)
  - Bar Chart: Top 10 Products by Sales (Highlights the highest-grossing products, enabling stakeholders to focus on best-sellers)
  - Slicers: Segment, Category, and Region (Allow users to filter the dashboard dynamically and drill into specific areas of the business)
+## User Interactions
+The dashboard includes interactive features to support deep dives and comparative analysis:
+ - Multi-select Slicers enable users to compare performance across different regions, categories, or segments
+ - Hover tooltips reveal details on sales values without overcrowding the visuals
+ - All charts are responsive to slicer selections, enabling dynamic exploration of the data
 
+This interactive layout empowers users — particularly the Regional Sales Director — to analyze trends, identify growth opportunities, and spot underperforming areas with just a few clicks.
 
 
 
