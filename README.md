@@ -58,7 +58,6 @@ Data cleaning was performed in Microsoft Excel before importing the dataset into
  - Converted Order Date and Ship Date columns into proper date formats
  - Verified that numeric columns such as Sales, Profit, Discount, and Quantity were correctly typed as numbers
  - Standardized text formatting for categorical fields like Region, Segment, Category, and Sub-Category (e.g., removing extra spaces and fixing case mismatches)
-
 ## Handling Missing or Duplicate
   - Scanned the dataset for blank cells and filled or removed non-critical ones as appropriate
   - Removed duplicate rows based on Order ID to ensure each transaction was unique
