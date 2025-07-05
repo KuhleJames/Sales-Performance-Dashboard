@@ -53,6 +53,25 @@ The data was provided in Excel format and included the following key fields:
 
 This raw dataset was first analysed in SQL to answer business questions and then imported into Power BI for further cleaning, modeling, and visualisation.
 
+# SQL Analysis
+## Business Questions Answered
+Before importing the dataset into Power BI, exploratory data analysis was performed in SQL to answer key business questions such as:
+ - How have monthly sales changed across different regions?
+ - What is the total profit by product category and region?
+ - Which products rank highest in sales and lowest in profit?
+ - How do discounts above 20% affect profitability?
+ - Which consumer segment drives the most revenue?
+ - Which region shows consistent YoY growth?
+## Samples Queries
+
+
+
+
+
+
+
+
+
 
 
 
