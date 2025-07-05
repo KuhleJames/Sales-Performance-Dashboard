@@ -73,27 +73,27 @@ Before importing the dataset into Power BI, exploratory data analysis was perfor
 
  - What is the total profit by product category and region?
 
-![Image Failed to Load](assets/images/Total_profit_by_Product_Category_&_Region.png)
+![Image Failed to Load](assets/images/Total_Profit_by_Product_Category_&_Region.png)
 
  - Which products rank highest in sales and lowest in profit?
 
-![Image Failed to Load](assets/images/top_10_products_by_sales.png)
+![Image Failed to Load](assets/images/Top_10_Products_by_Sales.png)
 
-![Image Failed to Load](assets/images/bottom_10_products_by_profit.png)
+![Image Failed to Load](assets/images/Bottom_10_Products_by_Profit.png)
 
  - How do discounts above 20% affect profitability?
 
-![Image Failed to Load](assets/images/discount_impact_on_profit.png)
+![Image Failed to Load](assets/images/Discount_Impact_on_Profit.png)
 
  - Which consumer segment drives the most revenue?
 
-![Image Failed to Load](assets/images/segment_with_the_most_revenue.png)
+![Image Failed to Load](assets/images/Segment_With_The_Most_Revenue.png)
 
  - Which region shows consistent YoY growth?
 
-![Image Failed to Load](assets/images/region_YoY_query.png)
+![Image Failed to Load](assets/images/Region_YoY_Query.png)
 
-![Image Failed to Load](assets/images/region_YoY_output.png)
+![Image Failed to Load](assets/images/Region_YoY_Output.png)
 
 # Data Modeling
 ## Star Schema Design
