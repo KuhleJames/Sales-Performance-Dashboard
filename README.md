@@ -5,11 +5,9 @@
 
 # Table of contents
 
+- [Objectives](#objectives)
+- [Data Source](#data-source)
+- [Stages](#stages)
+- [Design](#design)
 
-## 1. [Objectives](#objectives)
-## 2. [Data Source](#data-source)
-## 3. [Stages](#stages)
-## 4. [Design](#design)
-  ###   (i) [Tools](#tools)
-## 5. [Development](#developments)
 
