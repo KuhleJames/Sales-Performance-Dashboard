@@ -15,7 +15,6 @@
   - [Data Types & Formatting](#data-types-&-formatting)
 - [SQL Analysis](#dsql-analysis)
   - [Business Questions Answered](#business-questioned-answered)
-  - [Sample Queries](#sample-queries)
 - [Data Modeling](#data-modeling)
   - [Star Schema Design](#star-schema-design)
   - [Table Relationships](#table-relationships)
@@ -53,6 +52,18 @@ The data was provided in Excel format and included the following key fields:
 
 This raw dataset was first analysed in SQL to answer business questions and then imported into Power BI for further cleaning, modeling, and visualisation.
 
+# Data Cleaning & Preparation
+## Data Types & Formatting
+Data cleaning was performed in Microsoft Excel before importing the dataset into PostgreSQL. The following steps were taken to ensure consistency and accuracy:
+ - Converted Order Date and Ship Date columns into proper date formats
+ - Verified that numeric columns such as Sales, Profit, Discount, and Quantity were correctly typed as numbers
+ - Standardized text formatting for categorical fields like Region, Segment, Category, and Sub-Category (e.g., removing extra spaces and fixing case mismatches)
+## Handling Missing or Duplicate
+  - Scanned the dataset for blank cells and filled or removed non-critical ones as appropriate
+  - Removed duplicate rows based on Order ID to ensure each transaction was unique
+  - Cleaned inconsistent values in fields such as Product Name and Region to prevent grouping errors in Power BI
+  - After cleaning, the Excel file was saved as a structured dataset and imported into PostgreSQL for analysis
+
 # SQL Analysis
 ## Business Questions Answered
 Before importing the dataset into Power BI, exploratory data analysis was performed in SQL to answer key business questions such as:
@@ -62,7 +73,7 @@ Before importing the dataset into Power BI, exploratory data analysis was perfor
  - How do discounts above 20% affect profitability?
  - Which consumer segment drives the most revenue?
  - Which region shows consistent YoY growth?
-## Samples Queries
+
 
 
 
