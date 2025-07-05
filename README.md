@@ -74,6 +74,42 @@ Before importing the dataset into Power BI, exploratory data analysis was perfor
  - Which consumer segment drives the most revenue?
  - Which region shows consistent YoY growth?
 
+# Data Modeling
+## Star Schema Design
+In Power BI, the cleaned Excel dataset was structured using a star schema to improve performance and enable flexible analysis. The schema was designed around a central Fact Table and supporting Dimension Tables, such as:
+ - Fact_Sales: Contains transactional data including Order ID, Product ID, Sales, Quantity, Profit, and Discount
+ - Dim_Date: A custom calendar table used to support time intelligence (e.g. YoY growth)
+ - Dim_Product: Includes Product Name, Category, and Sub-Category
+ - Dim_Customer: Contains Customer ID, Segment, and Region
+ - Dim_Shipping: Includes Shipping Mode and Order Priority
+
+This structure made it easier to slice and drill down into sales metrics by region, customer segment, product category, and time period.
+## Table Relationships
+Relationships between tables were created using one-to-many (1:* ) joins:
+ - Dim_Date[Date] → Fact_Sales[Order Date]
+ - Dim_Product[Product ID] → Fact_Sales[Product ID]
+ - Dim_Customer[Customer ID] → Fact_Sales[Customer ID]
+ - Dim_Shipping[Shipping Mode] → Fact_Sales[Shipping Mode]
+
+These relationships enabled efficient filtering, grouping, and aggregation in the report visuals.
+
+All relationships were created and managed in Power BI’s Model View, with referential integrity maintained across tables.
+
+# DAX Calculations
+## Core Measures
+Several key performance indicators (KPIs) were calculated using DAX to enable accurate business insights. These include:
+ - Total Sales
+DAX
+Total Sales = SUM(Fact_Sales[Sales])
+ - Total Profit
+DAX
+Total Profit = SUM(Fact_Sales[Profit])
+ - Profit Margin (%)
+DAX
+Profit Margin (%) = DIVIDE([Total Profit], [Total Sales])
+ - Total Quanity Sold
+DAX
+Total Quantity = SUM(Fact_Sales[Quantity])
 
 
 
