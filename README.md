@@ -148,13 +148,13 @@ These DAX measures powered KPI cards and visual insights across multiple dimensi
 ## Visual Used
 The dashboard was designed to highlight key sales trends and product performance, using visuals that make comparisons and patterns easy to interpret:
  - Line Chart
-Sales Trend by Segment: Shows how each customer segment performs over time, revealing seasonality and growth patterns
+  - Sales Trend by Segment: Shows how each customer segment performs over time, revealing seasonality and growth patterns
  - Tree Map
-Sales by Region: Provides a proportional view of total sales across regions, making it easy to spot the highest and lowest contributors
+  - Sales by Region: Provides a proportional view of total sales across regions, making it easy to spot the highest and lowest contributors
  - Bar Chart
-Top 10 Products by Sales: Highlights the highest-grossing products, enabling stakeholders to focus on best-sellers
+  - Top 10 Products by Sales: Highlights the highest-grossing products, enabling stakeholders to focus on best-sellers
  - Slicers
-Segment, Category, and Region: Allow users to filter the dashboard dynamically and drill into specific areas of the business
+  - Segment, Category, and Region: Allow users to filter the dashboard dynamically and drill into specific areas of the business
 
 
 
