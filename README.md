@@ -179,7 +179,7 @@ The dashboard includes interactive features to support deep dives and comparativ
 
 
 
-This interactive layout empowers users — particularly the Regional Sales Director — to analyze trends, identify growth opportunities, and spot underperforming areas with just a few clicks.
+This interactive layout empowers users — particularly the Regional Sales Director — to analyse trends, identify growth opportunities, and spot underperforming areas with just a few clicks.
 
 # Key Insights
 ## Trends Identified
