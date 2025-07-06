@@ -193,21 +193,8 @@ This interactive layout empowers users — particularly the Regional Sales Direc
 ## Trends Identified
 Based on the sales data and visual analysis, several key trends emerged:
  - Sales performance varies significantly by segment: The line chart shows that the Consumer segment consistently leads in total sales, followed by Corporate. The Home Office segment lags behind, especially during Q2.
-
-
-
-
-
  - Regional contribution is uneven: The tree map reveals that one or two regions (e.g., West or East) dominate total sales, while others contribute far less. This indicates potential opportunity or risk depending on business goals.
-
-
-![Image Failed to Load](assets/images/Tree_Map.png)
-
-
  - Top-selling products are concentrated: The bar chart highlights that a small group of products drives a large portion of sales. These top 10 products could be prioritized in inventory planning and promotions.
-
-
-![Image Failed to Load](assets/images/Bar_Graph.png)
 
 
 ## Recommendations
