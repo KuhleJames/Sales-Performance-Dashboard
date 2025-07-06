@@ -1,4 +1,4 @@
-# Data Portfolio: Excel to Power BI
+# Data Portfolio: Sales Performance Dashboard (Excel, PostgreSQL, Power BI)
 
 
 
