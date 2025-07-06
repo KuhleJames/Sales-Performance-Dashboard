@@ -42,7 +42,7 @@ This project addresses those challenges by transforming raw sales data into acti
 
 # Data Collection
 ## Source
-The dataset used for this project is the publicly available Superstore Sales dataset, which simulates a retail company’s historical order data. It contains detailed transactional information on customer orders, product categories, shipping performance, and regional sales.
+The dataset used for this project is the publicly available (on Kaggle) Superstore Sales dataset, which simulates a retail company’s historical order data. It contains detailed transactional information on customer orders, product categories, shipping performance, and regional sales.
 ## Structure & Format
 The data was provided in Excel format and included the following key fields:
  - Order Details: Order ID, Order Date, Ship Date, Customer ID, Segment, Region
@@ -50,7 +50,7 @@ The data was provided in Excel format and included the following key fields:
  - Sales Metrics: Sales, Quantity, Discount, Profit
  - Shipping Metrics: Shipping Mode, Ship Date, Order Priority
 
-This raw dataset was first analysed in SQL to answer business questions and then imported into Power BI for further cleaning, modeling, and visualisation.
+This raw dataset was first cleaned in Excel, then analysed using SQL to answer key business questions, and finally imported into Power BI for data modeling and interactive visualisation.
 
 # Data Cleaning & Preparation
 ## Data Types & Formatting
