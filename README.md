@@ -195,7 +195,7 @@ Based on the sales data and visual analysis, several key trends emerged:
  - Sales performance varies significantly by segment: The line chart shows that the Consumer segment consistently leads in total sales, followed by Corporate. The Home Office segment lags behind, especially during Q2.
 
 
-![Image Failed to Load](assets/images/Line_Chart.png)
+
 
 
  - Regional contribution is uneven: The tree map reveals that one or two regions (e.g., West or East) dominate total sales, while others contribute far less. This indicates potential opportunity or risk depending on business goals.
