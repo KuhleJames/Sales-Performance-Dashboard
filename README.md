@@ -1,6 +1,6 @@
 # Sales Performance Dashboard 
 
-![Image Failed to Load](assets/images/Churn_Analysis_Image.png)
+![Image Failed to Load](assets/Sales_Performance_Analysis_Image.png)
 
 
 # Table of contents
