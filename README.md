@@ -1,6 +1,5 @@
 # Sales Performance Dashboard 
 
-
 ![Image Failed to Load](assets/images/Sales_Performance_Analysis_Image.png)
 
 
